@@ -1,0 +1,30 @@
+.meal-layer {
+    height: 100%;
+    background-color: #f9f6f6ca;
+    display: flex;
+    transition: 0.5s;
+    top: 100%;
+    width: 100%;
+}
+
+.meal:hover .meal-layer {
+    top: 0;
+}
+
+.loadingScreen {
+    z-index: 9999;
+    display: flex;
+}
+
+body {
+    overflow: hidden;
+}
+
+.side-nav-menu {
+    z-index: 99;
+}
+
+.contact {
+    position: relative;
+    top: 200px;
+}
